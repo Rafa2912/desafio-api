@@ -4,7 +4,7 @@
   "scripts": {
     "test": "jest",
     "test:report": "npm test && npm run allure:serve",
-    "allure:generate": "npx allure generate allure-results -o allure-report --clean",
+    "allure:generate": "allure generate allure-results --clean",
     "allure:serve": "npx allure serve allure-results",
     "allure:open": "npx allure open allure-report"
   },
