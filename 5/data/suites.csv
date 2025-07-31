@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Code preview is not available","360","Deve criar um novo usuário com sucesso","","Thu Jul 31 00:34:33 GMT 2025","passed","Thu Jul 31 00:34:33 GMT 2025","POST /usuarios","tests/createUser.test.js","",""
+"Code preview is not available","331","Deve buscar os usuários com sucesso","","Thu Jul 31 00:34:33 GMT 2025","passed","Thu Jul 31 00:34:33 GMT 2025","GET /usuarios","tests/getUser.test.js","",""
+"Code preview is not available","354","Deve buscar os usuário especifico por id","","Thu Jul 31 00:34:33 GMT 2025","passed","Thu Jul 31 00:34:33 GMT 2025","GET /usuarios/{id}","tests/getUserById.test.js","",""
