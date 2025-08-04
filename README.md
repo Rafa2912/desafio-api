@@ -1,20 +1,64 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# 🧪 Testes Automatizados da API - ServeRest
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+Este projeto contém testes automatizados utilizando **Jest** e **Supertest** para a API pública [https://serverest.dev](https://serverest.dev), simulando operações CRUD no recurso de **usuários**.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+---
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## ✅ Funcionalidades testadas
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+Os seguintes endpoints foram cobertos com testes automatizados:
+
+- **GET /usuarios** – Lista todos os usuários
+- **GET /usuarios/{id}** – Retorna um usuário específico
+- **POST /usuarios** – Cria um novo usuário
+- **PUT /usuarios/{id}** – Atualiza dados de um usuário existente
+- **DELETE /usuarios/{id}** – Remove um usuário (criado durante o teste)
+
+---
+
+## ⚙️ Tecnologias utilizadas
+
+- [Node.js](https://nodejs.org/)
+- [Jest](https://jestjs.io/)
+- [Supertest](https://github.com/ladjs/supertest)
+- [Allure Reports](https://docs.qameta.io/allure/)
+
+---
+
+## 📁 Estrutura do projeto
+
+├── tests/
+│ ├── usuarios/
+│ │ ├── getUsuarios.spec.js
+│ │ ├── getUsuarioPorId.spec.js
+│ │ ├── postUsuarios.spec.js
+│ │ ├── putUsuarios.spec.js
+│ │ └── deleteUsuarios.spec.js
+├── utils/
+│ └── tokenManager.js
+├── package.json
+└── jest.config.js
+
+---
+
+## 🚀 Como executar os testes
+```bash
+npm test
+npm run allure:generate
+npm run allure:open
+npm run test:report
+### 1. Clone o projeto
+
+```bash
+git clone https://github.com/rafaelrodrigoqa/desafio-api.git
+cd desafio-api
+npm install
+
+⚠️ Requisitos
+Node.js 18 ou superior
+
+NPM 9 ou superior
+
+👤 Autor
+Desenvolvido por Rafael Rodrigo
+🔗 GitHub: https://github.com/Rafa2912
