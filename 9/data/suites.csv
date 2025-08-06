@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Code preview is not available","498","Deve buscar os usuários com sucesso","","Wed Aug 06 19:08:21 GMT 2025","passed","Wed Aug 06 19:08:21 GMT 2025","GET /usuarios","tests/getUser.test.js","",""
+"Code preview is not available","522","Deve criar um novo usuário com sucesso","","Wed Aug 06 19:08:21 GMT 2025","passed","Wed Aug 06 19:08:21 GMT 2025","POST /usuarios","tests/createUser.test.js","",""
+"Code preview is not available","128","Deve deletar um usuário com sucesso","","Wed Aug 06 19:08:21 GMT 2025","passed","Wed Aug 06 19:08:21 GMT 2025","DELETE /usuarios/{id}","tests/deleteUserById.test.js","",""
+"Code preview is not available","445","Deve atualizar um usuário com sucesso","","Wed Aug 06 19:08:21 GMT 2025","passed","Wed Aug 06 19:08:22 GMT 2025","PUT /usuarios/{id}","tests/putUserById.test.js","",""
+"Code preview is not available","468","Deve buscar os usuário especifico por id","","Wed Aug 06 19:08:22 GMT 2025","passed","Wed Aug 06 19:08:22 GMT 2025","GET /usuarios/{id}","tests/getUserById.test.js","",""
