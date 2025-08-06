@@ -47,6 +47,20 @@ npm test
 npm run allure:generate
 npm run allure:open
 npm run test:report
+
+## 🚀 Como rodar a pipeline - GitHub
+
+Passos para execução:
+Acesse o github -> https://github.com/Rafa2912/desafio-api
+Faça login com sua conta do GitLab;
+Clique no botão "Actions" na parte superior;
+Clique no botão "Test and Generate Allure Report" na parte superior á esquerda;
+Clique no botão "Run workflow" na parte superior á direta;
+Escolha a branch desejada (ex:main)
+Clique em "Run workflow" novamente para iniciar a execução.
+A pipeline será disparada automaticamente e você poderá acompanhar os estágios de execução em tempo real.
+
+
 ### 1. Clone o projeto
 
 ```bash
